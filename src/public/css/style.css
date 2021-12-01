@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --place-color: #892E8D;
+    --product-color: #FF8C12;
+    --price-color: #FF604E;
+    --packaging-color: #FF79A5;
+    --proposition-color: #37BF3D;
+    --promotion-color: #1898E3;
+    --background-color: #292929;
+    --background2-color: #C4C4C4;
+
+    --font-basic: 24px;
+    --font-large: 64px;
+}
+
+body {
+    margin: 0;
+    width: 1440px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    font-size: var(--font-large);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 70px;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+
+.buttons li {
+    margin-left : 16px;
+    padding: 3px 14px;
+}
+
+.section1_main {
+    position: relative;
+    height: 895px;
+    background-image: url("../image/main.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main_text {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.about_text1 {
+    margin: 0;
+    padding-top: 102px;
+    font-size: 48px;
+}
+.about_text2 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 63px;
+    font-size: 24px;
+}
+
+.section3_experience {
+    height: 1136px;
+}
+
+.experience {
+    margin: 115px 98px;
+    padding: 0;
+}
+
+.image {
+    list-style: none;
+    display: inline-block;
+}
+
+#circle_image {
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    padding: 0px 34px;
+    width: 314px;
+    height: 314px;
+    border-radius: 50%;
+}
+
+.image_text {
+    font-size: 24px;
+}
+
+.symbol_text {
+    font-size: 72px;
+}
+
+.experience_text {
+    padding-top: 180px;
+}
+
+.section4_what {
+    height: 1430px;
+}
+
+.section5_demo {
+    height: 834px;
+    background-color: var(--background-color);
+}
+
+button { 
+    margin: 40px 15px;
+    padding: 18px 45px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+.what_text {
+    padding-top: 26px;
+    padding-bottom: 65px;
+}
+
+.section6_features {
+    margin-top: 100px;
+    height: 6780px;
+}
+
+.card_image {
+    margin-top: 65px;
+    height: 840px;
+    background-color: var(--background-color);
+}
+
+.text {
+    font-size: 33px;
+}
+#ai_image {
+    width: 388px;
+    height: 669.96px;
+}
+
+#speed_image {
+    width: 600px;
+    height: 400px;
+}
+
+#idea_image {
+    width: 1011px;
+    height: 670px;
+}
+
+#frame_image {
+    width: 100%;
+}
+
+.section7_contact {
+    height: 695px;
+}
