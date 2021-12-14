@@ -8,11 +8,29 @@ const promotionBtn = document.querySelector(".promotionBtn");
 const back = document.querySelector(".card-1");
 const bars = document.querySelectorAll(".bar");
 const buttons = document.querySelectorAll(".button");
+const onebutton = document.querySelector(".onebutton");
 
 const wwws = document.querySelectorAll(".www");
 const ps = document.querySelectorAll(".p");
 
+const card1 = document.querySelector('.card1__inner');
+const card2 = document.querySelector('.card2__inner');
+const card3 = document.querySelector('.card3__inner');
+
+card1.addEventListener('click', function () {
+    card1.classList.toggle('is-flipped');
+});
+card2.addEventListener('click', function () {
+    card2.classList.toggle('is-flipped');
+});
+card3.addEventListener('click', function () {
+    card3.classList.toggle('is-flipped');
+});
+
+
 placeBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_1.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_1.png" alt=""></img>';
     document.querySelector(".card1.cardtitle").innerHTML = 'How to make your product dangerous to eat; <br> only for adventurers!';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products at your own product parties?';
     document.querySelector(".card3.cardtitle").innerHTML = 'How to make your product ready to use / consume in a very short time?';
@@ -22,6 +40,8 @@ placeBtn.addEventListener("click", () => {
     document.querySelector(".card2.sub").innerHTML = 'own &nbsp distribution';
     document.querySelector(".card3.sub").innerHTML = 'on &nbsp the &nbsp go';
     document.querySelector(".card4.sub").innerText = 'family';
+
+    onebutton.style.backgroundColor = "#892E8D";
 
     placeBtn.style.backgroundColor = "#892E8D";
     productBtn.style.backgroundColor = "white";
@@ -52,6 +72,9 @@ placeBtn.addEventListener("click", () => {
 });
 
 productBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_2.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_2.png" alt=""></img>';
+
     document.querySelector(".card1.cardtitle").innerHTML = 'How can your product re-vitalize another product?';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products in layers (like for soup layers of crutons, herbs, water, vegetables)?';
     document.querySelector(".card3.cardtitle").innerHTML = 'How to turn your products into a bar, like chocolate bar, that you can break off pieces?';
@@ -62,6 +85,8 @@ productBtn.addEventListener("click", () => {
     document.querySelector(".card3.sub").innerHTML = 'new &nbsp format';
     document.querySelector(".card4.sub").innerText = 'creative';
     
+    onebutton.style.backgroundColor = "#FF8C12";
+
     placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "#FF8C12";
     priceBtn.style.backgroundColor = "white";
@@ -91,6 +116,9 @@ productBtn.addEventListener("click", () => {
 });
 
 priceBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_3.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_3.png" alt=""></img>';
+
     document.querySelector(".card1.cardtitle").innerHTML = 'How can consumers rent your product?';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to give away your product for free if people are buying a competitor product?';
     document.querySelector(".card3.cardtitle").innerHTML = 'How can you make different varieties (packaging, content, shapes) of your product and ask different prices for each?';
@@ -100,6 +128,8 @@ priceBtn.addEventListener("click", () => {
     document.querySelector(".card2.sub").innerHTML = 'for &nbsp free';
     document.querySelector(".card3.sub").innerText = 'flexible';
     document.querySelector(".card4.sub").innerText = 'flexible';
+
+    onebutton.style.backgroundColor = "#FF604E";
 
     placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "white";
@@ -130,6 +160,8 @@ priceBtn.addEventListener("click", () => {
 });
 
 packagingBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_4.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_4.png" alt=""></img>';
 
     document.querySelector(".card1.cardtitle").innerHTML = 'How to make a packaging that invites cosumers to share the product?';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to put your product in a straw; <br> suck in (hot) water!';
@@ -140,6 +172,8 @@ packagingBtn.addEventListener("click", () => {
     document.querySelector(".card2.sub").innerHTML = 'new &nbsp shape';
     document.querySelector(".card3.sub").innerText = 'dispensing';
     document.querySelector(".card4.sub").innerText = 'dispensing';
+
+    onebutton.style.backgroundColor = "#FF79A5";
 
     placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "white";
@@ -170,6 +204,9 @@ packagingBtn.addEventListener("click", () => {
 });
 
 propositionBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_5.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_5.png" alt=""></img>';
+
     document.querySelector(".card1.cardtitle").innerHTML = 'How to link your product to the seasons, e.g. winter.';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to find new consumptions moments during the day or night?';
     document.querySelector(".card3.cardtitle").innerHTML = 'How to visualize the senses in your product (feel, hear, see smell, taste)?';
@@ -179,6 +216,8 @@ propositionBtn.addEventListener("click", () => {
     document.querySelector(".card2.sub").innerHTML = 'new &nbsp moments';
     document.querySelector(".card3.sub").innerText = 'emotions';
     document.querySelector(".card4.sub").innerText = 'claims';
+
+    onebutton.style.backgroundColor = "#37BF3D";
 
     placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "white";
@@ -209,6 +248,9 @@ propositionBtn.addEventListener("click", () => {
 });
 
 promotionBtn.addEventListener("click", () => {
+    document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_6.png" alt="">';
+    document.querySelector(".mini").innerHTML = '<img id="mini" src="../public/image/icon_6.png" alt=""></img>';
+
     document.querySelector(".card1.cardtitle").innerHTML = 'How can your product re-vitalize another product?';
     document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products in layers (like for soup layers of crutons, herbs, water, vegetables)?';
     document.querySelector(".card3.cardtitle").innerHTML = 'How to turn your products into a bar, like chocolate bar, that you can break off pieces?';
@@ -218,6 +260,8 @@ promotionBtn.addEventListener("click", () => {
     document.querySelector(".card2.sub").innerText = 'education';
     document.querySelector(".card3.sub").innerText = 'contest';
     document.querySelector(".card4.sub").innerText = 'communication';
+
+    onebutton.style.backgroundColor = "#1898E3";
 
     placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "white";
