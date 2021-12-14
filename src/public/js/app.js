@@ -1,36 +1,249 @@
-const placeBtn = document.querySelector(".place");
-const productBtn = document.querySelector(".product");
-const priceBtn = document.querySelector(".price");
-const packagingBtn = document.querySelector(".packaging");
-const propositionBtn = document.querySelector(".proposition");
-const promotionBtn = document.querySelector(".promotion");
+const placeBtn = document.querySelector(".placeBtn");
+const productBtn = document.querySelector(".productBtn");
+const priceBtn = document.querySelector(".priceBtn");
+const packagingBtn = document.querySelector(".packagingBtn");
+const propositionBtn = document.querySelector(".propositionBtn");
+const promotionBtn = document.querySelector(".promotionBtn");
+
+const back = document.querySelector(".card-1");
+const bars = document.querySelectorAll(".bar");
+const buttons = document.querySelectorAll(".button");
+
+const wwws = document.querySelectorAll(".www");
+const ps = document.querySelectorAll(".p");
 
 placeBtn.addEventListener("click", () => {
+    document.querySelector(".card1.cardtitle").innerHTML = 'How to make your product dangerous to eat; <br> only for adventurers!';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products at your own product parties?';
+    document.querySelector(".card3.cardtitle").innerHTML = 'How to make your product ready to use / consume in a very short time?';
+    document.querySelector(".card4.cardtitle").innerHTML = 'How would your "Baby first Product" look like?';
+
+    document.querySelector(".card1.sub").innerText = 'people';
+    document.querySelector(".card2.sub").innerHTML = 'own &nbsp distribution';
+    document.querySelector(".card3.sub").innerHTML = 'on &nbsp the &nbsp go';
+    document.querySelector(".card4.sub").innerText = 'family';
+
     placeBtn.style.backgroundColor = "#892E8D";
+    productBtn.style.backgroundColor = "white";
+    priceBtn.style.backgroundColor = "white";
+    packagingBtn.style.backgroundColor = "white";
+    propositionBtn.style.backgroundColor = "white";
+    promotionBtn.style.backgroundColor = "white";
+
     placeBtn.style.color ="white";
+    productBtn.style.color ="black";
+    priceBtn.style.color ="black";
+    packagingBtn.style.color ="black";
+    propositionBtn.style.color ="black";
+    promotionBtn.style.color ="black";
+
+    back.style.backgroundColor = "#892E8D";
+    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#892E8D";
+        buttons[i].style.borderColor = "#892E8D";
+        wwws[i].innerText = 'where';
+        ps[i].innerText = 'Place';
+    }
 });
 
 productBtn.addEventListener("click", () => {
+    document.querySelector(".card1.cardtitle").innerHTML = 'How can your product re-vitalize another product?';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products in layers (like for soup layers of crutons, herbs, water, vegetables)?';
+    document.querySelector(".card3.cardtitle").innerHTML = 'How to turn your products into a bar, like chocolate bar, that you can break off pieces?';
+    document.querySelector(".card4.cardtitle").innerHTML = 'How do decompose your product in each individual part and recompose it into a totally new product?';
+
+    document.querySelector(".card1.sub").innerHTML = 'shelf &nbsp life';
+    document.querySelector(".card2.sub").innerHTML = 'new &nbsp format';
+    document.querySelector(".card3.sub").innerHTML = 'new &nbsp format';
+    document.querySelector(".card4.sub").innerText = 'creative';
+    
+    placeBtn.style.backgroundColor = "white";
     productBtn.style.backgroundColor = "#FF8C12";
+    priceBtn.style.backgroundColor = "white";
+    packagingBtn.style.backgroundColor = "white";
+    propositionBtn.style.backgroundColor = "white";
+    promotionBtn.style.backgroundColor = "white";
+
+    placeBtn.style.color ="black";
     productBtn.style.color ="white";
+    priceBtn.style.color ="black";
+    packagingBtn.style.color ="black";
+    propositionBtn.style.color ="black";
+    promotionBtn.style.color ="black";
+
+    back.style.backgroundColor = "#FF8C12";
+    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "27px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
+
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#FF8C12";
+        buttons[i].style.borderColor = "#FF8C12";
+        wwws[i].innerText = 'what';
+        ps[i].innerText = 'Product';
+    }
 });
 
 priceBtn.addEventListener("click", () => {
+    document.querySelector(".card1.cardtitle").innerHTML = 'How can consumers rent your product?';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to give away your product for free if people are buying a competitor product?';
+    document.querySelector(".card3.cardtitle").innerHTML = 'How can you make different varieties (packaging, content, shapes) of your product and ask different prices for each?';
+    document.querySelector(".card4.cardtitle").innerHTML = 'How can consumers buy your product as if it is an auction?';
+
+    document.querySelector(".card1.sub").innerText = 'rent';
+    document.querySelector(".card2.sub").innerHTML = 'for &nbsp free';
+    document.querySelector(".card3.sub").innerText = 'flexible';
+    document.querySelector(".card4.sub").innerText = 'flexible';
+
+    placeBtn.style.backgroundColor = "white";
+    productBtn.style.backgroundColor = "white";
     priceBtn.style.backgroundColor = "#FF604E";
+    packagingBtn.style.backgroundColor = "white";
+    propositionBtn.style.backgroundColor = "white";
+    promotionBtn.style.backgroundColor = "white";
+
+    placeBtn.style.color ="black";
+    productBtn.style.color ="black";
     priceBtn.style.color ="white";
+    packagingBtn.style.color ="black";
+    propositionBtn.style.color ="black";
+    promotionBtn.style.color ="black";
+
+    back.style.backgroundColor = "#FF604E";
+    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "26px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "19px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+    
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#FF604E";
+        buttons[i].style.borderColor = "#FF604E";
+        wwws[i].innerText = 'what';
+        ps[i].innerText = 'Price';
+    }
 });
 
 packagingBtn.addEventListener("click", () => {
+
+    document.querySelector(".card1.cardtitle").innerHTML = 'How to make a packaging that invites cosumers to share the product?';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to put your product in a straw; <br> suck in (hot) water!';
+    document.querySelector(".card3.cardtitle").innerHTML = "Smells 'like the real' thing when you open it!";
+    document.querySelector(".card4.cardtitle").innerHTML = 'How to spray (parts of) your product?';
+    
+    document.querySelector(".card1.sub").innerText = 'portioning';
+    document.querySelector(".card2.sub").innerHTML = 'new &nbsp shape';
+    document.querySelector(".card3.sub").innerText = 'dispensing';
+    document.querySelector(".card4.sub").innerText = 'dispensing';
+
+    placeBtn.style.backgroundColor = "white";
+    productBtn.style.backgroundColor = "white";
+    priceBtn.style.backgroundColor = "white";
     packagingBtn.style.backgroundColor = "#FF79A5";
+    propositionBtn.style.backgroundColor = "white";
+    promotionBtn.style.backgroundColor = "white";
+
+    placeBtn.style.color ="black";
+    productBtn.style.color ="black";
+    priceBtn.style.color ="black";
     packagingBtn.style.color ="white";
+    propositionBtn.style.color ="black";
+    promotionBtn.style.color ="black";
+
+    back.style.backgroundColor = "#FF79A5";
+    document.querySelector(".card1.cardtitle").style.fontSize = "27px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+    
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#FF79A5";
+        buttons[i].style.borderColor = "#FF79A5";
+        wwws[i].innerText = 'what';
+        ps[i].innerText = 'Packaging';
+    }
 });
 
 propositionBtn.addEventListener("click", () => {
+    document.querySelector(".card1.cardtitle").innerHTML = 'How to link your product to the seasons, e.g. winter.';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to find new consumptions moments during the day or night?';
+    document.querySelector(".card3.cardtitle").innerHTML = 'How to visualize the senses in your product (feel, hear, see smell, taste)?';
+    document.querySelector(".card4.cardtitle").innerHTML = 'How to make the 11st commandment: "Thou shalt eat this product at least 5 times each week".';
+
+    document.querySelector(".card1.sub").innerHTML = 'new &nbsp moments';
+    document.querySelector(".card2.sub").innerHTML = 'new &nbsp moments';
+    document.querySelector(".card3.sub").innerText = 'emotions';
+    document.querySelector(".card4.sub").innerText = 'claims';
+
+    placeBtn.style.backgroundColor = "white";
+    productBtn.style.backgroundColor = "white";
+    priceBtn.style.backgroundColor = "white";
+    packagingBtn.style.backgroundColor = "white";
     propositionBtn.style.backgroundColor = "#37BF3D";
+    promotionBtn.style.backgroundColor = "white";
+
+    placeBtn.style.color ="black";
+    productBtn.style.color ="black";
+    priceBtn.style.color ="black";
+    packagingBtn.style.color ="black";
     propositionBtn.style.color ="white";
+    promotionBtn.style.color ="black";
+
+    back.style.backgroundColor = "#37BF3D";
+    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "24px";
+    
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#37BF3D";
+        buttons[i].style.borderColor = "#37BF3D";
+        wwws[i].innerText = 'how';
+        ps[i].innerText = 'Proposition';
+    }
 });
 
 promotionBtn.addEventListener("click", () => {
+    document.querySelector(".card1.cardtitle").innerHTML = 'How can your product re-vitalize another product?';
+    document.querySelector(".card2.cardtitle").innerHTML = 'How to sell your products in layers (like for soup layers of crutons, herbs, water, vegetables)?';
+    document.querySelector(".card3.cardtitle").innerHTML = 'How to turn your products into a bar, like chocolate bar, that you can break off pieces?';
+    document.querySelector(".card4.cardtitle").innerHTML = 'How do decompose your product in each individual part and recompose it into a totally new product?';
+
+    document.querySelector(".card1.sub").innerText = 'promotion';
+    document.querySelector(".card2.sub").innerText = 'education';
+    document.querySelector(".card3.sub").innerText = 'contest';
+    document.querySelector(".card4.sub").innerText = 'communication';
+
+    placeBtn.style.backgroundColor = "white";
+    productBtn.style.backgroundColor = "white";
+    priceBtn.style.backgroundColor = "white";
+    packagingBtn.style.backgroundColor = "white";
+    propositionBtn.style.backgroundColor = "white";
     promotionBtn.style.backgroundColor = "#1898E3";
+
+    placeBtn.style.color ="black";
+    productBtn.style.color ="black";
+    priceBtn.style.color ="black";
+    packagingBtn.style.color ="black";
+    propositionBtn.style.color ="black";
     promotionBtn.style.color ="white";
+
+    back.style.backgroundColor = "#1898E3";
+    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
+    document.querySelector(".card3.cardtitle").style.fontSize = "27px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
+
+    for(var i in bars) {
+        bars[i].style.backgroundColor = "#1898E3";
+        buttons[i].style.borderColor = "#1898E3";
+        wwws[i].innerText = 'how';
+        ps[i].innerText = 'Promotion';
+
+    }
 });
