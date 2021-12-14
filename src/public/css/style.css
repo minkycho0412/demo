@@ -41,30 +41,24 @@ section {
 }
 
 .section1 {
-    /* margin-top: 70px; */
-    position: relative;
     width: 1440px;
     height: 900px;
     font-weight: bold;
-    background-image: url("../image/main.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #121212;
 }
 
 header {
     font-weight: bold;
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1440px;
     height: 70px;
-    background-color: white;
 }
 
 a[href] {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul {
@@ -108,16 +102,6 @@ button {
     border: none;
     padding: 3px 14px;
     background-color: transparent;
-}
-
-.main_text {
-    color: black;
-    font-size: var(--font-title);
-    white-space: nowrap;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50%);
 }
 
 .section2 {
@@ -284,7 +268,7 @@ button {
     z-index: 1;
 }
 
-.section4 {
+.section5 {
     padding-top: 70px;
     position: relative;
 }
@@ -304,7 +288,7 @@ button {
     flex-wrap: wrap;
 }
 
-.section5 {
+.section4 {
     position: relative;
     background-color: var(--feature-background-color);;
 }
@@ -317,6 +301,7 @@ button {
   /*   height: 500px;
     width: calc(100% - 200px); */
     margin-left: 40px;
+    margin-top: 40px;
   }
     
   .card-1 {
@@ -508,7 +493,7 @@ button {
       font-weight: bold;
       font-size: 20px;
       cursor: pointer;
-      margin: 40px 15px;
+      margin: 70px 15px;
       width: 152px;
       height: 64px;
   }
