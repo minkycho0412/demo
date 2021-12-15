@@ -105,7 +105,7 @@ productBtn.addEventListener("click", () => {
     document.querySelector(".card1.cardtitle").style.fontSize = "28px";
     document.querySelector(".card2.cardtitle").style.fontSize = "25px";
     document.querySelector(".card3.cardtitle").style.fontSize = "27px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "22px";
 
     for(var i in bars) {
         bars[i].style.backgroundColor = "#FF8C12";
@@ -147,7 +147,7 @@ priceBtn.addEventListener("click", () => {
 
     back.style.backgroundColor = "#FF604E";
     document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "26px";
+    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
     document.querySelector(".card3.cardtitle").style.fontSize = "19px";
     document.querySelector(".card4.cardtitle").style.fontSize = "28px";
     
@@ -237,7 +237,7 @@ propositionBtn.addEventListener("click", () => {
     document.querySelector(".card1.cardtitle").style.fontSize = "28px";
     document.querySelector(".card2.cardtitle").style.fontSize = "28px";
     document.querySelector(".card3.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "24px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
     
     for(var i in bars) {
         bars[i].style.backgroundColor = "#37BF3D";
@@ -281,7 +281,7 @@ promotionBtn.addEventListener("click", () => {
     document.querySelector(".card1.cardtitle").style.fontSize = "28px";
     document.querySelector(".card2.cardtitle").style.fontSize = "25px";
     document.querySelector(".card3.cardtitle").style.fontSize = "27px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
+    document.querySelector(".card4.cardtitle").style.fontSize = "22px";
 
     for(var i in bars) {
         bars[i].style.backgroundColor = "#1898E3";
