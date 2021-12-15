@@ -9,6 +9,7 @@ app.set("views", __dirname + "/views");
 app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => res.render("home"));
+app.post("/", (req, res) => res.render("home"));
 app.get("/about", (req, res) => res.render("about"));
 
 const handleListening = () => console.log(`Server listening on http://localhost:${PORT} 🚀`);
