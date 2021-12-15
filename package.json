@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Demo page for Y-BOX Project",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "nodemon"
   },
   "author": "Minkyung Cho",
   "license": "MIT",
