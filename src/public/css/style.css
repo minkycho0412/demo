@@ -25,7 +25,7 @@
 }
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -52,6 +52,7 @@ section {
     font-weight: bold;
     font-size: 64px;
     line-height: 75px;
+    overflow: visible;
 }
 
 .title.main_text {
@@ -79,6 +80,7 @@ a[href] {
 
 ul {
     display: flex;
+    margin: 0px;
 }
 
 li {
@@ -244,7 +246,7 @@ button {
     height: 221px;
     position: absolute;
     right: 986px;
-    top: -50px;
+    top: 1.24px;
 }
 
 #proposition2 {
@@ -296,16 +298,15 @@ button {
 .section4 {
     position: relative;
     background-color: var(--feature-background-color);;
+    width: 100vw;
 }
 
 .container {
     display: flex;
-    position: absolute;
     width: 1350px;
     height: 600px;
   /*   height: 500px;
     width: calc(100% - 200px); */
-    margin-left: 40px;
     margin-top: 40px;
   }
     
@@ -595,7 +596,7 @@ button {
 }
 
 .section6 {
-    height: 5780px;
+    height: 4780px;
     padding-top: 45px;
     font-weight: 900;
     font-size: 36px;
@@ -743,23 +744,20 @@ button {
 
 .section6_6 {
     position: relative;
-    background-color: var(--feature-background-color);;
+    background-color: var(--feature-background-color);
+    width: 100vw;
 }
 
 #laptop {
-    position: absolute;
+    margin-top: 158px;
     width: 1040px;
     height: 624px;
-    left: 27px;
-    top: 158px;
 }
 
 #phone {
-    position: absolute;
+    margin-bottom: 70px;
     width: 328.99px;
     height: 621.86px;
-    left: 1040px;
-    top: 86.39px;
 }
 
 .reflect_text {
@@ -778,6 +776,7 @@ button {
     position: relative;
     margin-bottom: 0px;
     height: 770px;
+    overflow: visible;
 }
 
 .title.contact_text {
@@ -789,6 +788,7 @@ button {
 }
 
 .detail.contact_text {
+    display: flex;
     margin-top: 20px;
     text-align: left;
     position: absolute;
@@ -822,6 +822,7 @@ textarea {
     margin-top: 10px;
     border-radius: 5px;
     border-style: none;
+    width: 509px;
 }
 
 #submit {
@@ -878,7 +879,7 @@ textarea {
     position: relative;
 }
 
-.card1__inner.is-flipped {
+.card1__inner:hover {
     transform: rotateY(180deg);
 }
 
@@ -891,7 +892,7 @@ textarea {
     position: relative;
 }
 
-.card2__inner.is-flipped {
+.card2__inner:hover {
     transform: rotateY(180deg);
 }
 
@@ -904,7 +905,7 @@ textarea {
     position: relative;
 }
 
-.card3__inner.is-flipped {
+.card3__inner:hover {
     transform: rotateY(180deg);
 }
 
