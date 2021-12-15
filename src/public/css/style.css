@@ -596,34 +596,45 @@ button {
 }
 
 .section6 {
-    height: 4780px;
-    padding-top: 45px;
+    /* height: 4780px; */
     font-weight: 900;
     font-size: 36px;
     line-height: 55px;
 }
 
 .title.demo_text {
-    margin-top: 65px;
+    margin: 100px auto 30px;
     display: block;
     font-weight: bold;
     font-size: 64px;
     line-height: 75px;
 }
 
+.scroll {
+    overflow: scroll;
+}
+
 .section6_1 {
+    width: 1440px;
+    height: 800px;
     position: relative;
 }
 
 .section6_2 {
+    width: 1440px;
+    height: 800px;
     position: relative;
 }
 
 .section6_3 {
+    width: 1440px;
+    height: 800px;
     position: relative;
 }
 
 .section6_4 {
+    width: 1440px;
+    height: 800px;
     position: relative;
 }
 
@@ -633,7 +644,7 @@ button {
     width: 296.78px;
     height: 512.45px;
     left: 296px;
-    top: 306.77px;
+    top: 50px;
 }
 
 #ai_webinars {
@@ -642,7 +653,7 @@ button {
     width: 230px;
     height: 172px;
     left: 142px;
-    top: 206px;
+    top: 0px;
 }
 
 #ai_stations {
@@ -651,7 +662,7 @@ button {
     width: 273.38px;
     height: 192.94px;
     left: 68px;
-    top: 430px;
+    top: 180px;
 }
 
 #ai_hospitals {
@@ -660,14 +671,14 @@ button {
     width: 288.98px;
     height: 216.1px;
     left: 496px;
-    top: 566px;
+    top: 300px;
 }
 
 .features_text.ai {
     display: inline-block;
     position: absolute;
     left: 872px;
-    top: 388px;
+    top: 200px;
 }
 
 #inspirations {
@@ -713,8 +724,8 @@ button {
 
 #share {
     position: absolute;
-    width: 894px;
-    height: 747px;
+    width: 870px;
+    height: 735px;
     left: 546px;
     top: 76.5px;
 }
@@ -762,7 +773,7 @@ button {
 
 .reflect_text {
     display: block;
-    margin-top: 195px;
+    margin-top: 100px;
     margin-bottom: 165px;
 }
 
