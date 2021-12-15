@@ -142,6 +142,8 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #experience_image {
@@ -170,103 +172,103 @@ button {
     margin-bottom: 40px;
 }
 
-.icon_place {
+#place {
     position: absolute;
     width: 193px;
     height: 193px;
-    left: -96px;
+    right: 1272px;
     top: 283px;
 }
 
-.icon_place2 {
+#place2 {
     position: absolute;
     width: 162.41px;
     height: 162.41px;
-    left: -131px;
-    top: 502.21px;
+    right: 1349px;
+    top: 351px;
 }
 
-.icon_product {
+#product {
     position: absolute;
     width: 193px;
     height: 193px;
-    left: 1244px;
+    right: -53px;
     top: 384px;
 }
 
-.icon_product2 {
+#product2 {
     position: absolute;
     width: 162.41px;
     height: 162.41px;
-    left: 1181px;
-    top: 181px;
+    right: 49px;
+    top: 151px;
 }
 
-.icon_price {
+#price {
     position: absolute;
     width: 193px;
     height: 193px;
-    left: 967px;
+    right: 213px;
     top: 43px;
 
     transform: rotate(-70deg);
 }
 
-.icon_price2 {
+#price2 {
     position: absolute;
     width: 162.41px;
     height: 162.41px;
-    left: 833px;
-    top: 717px;
+    right: 377px;
+    top: 647px;
 }
 
-.icon_packaging {
+#packaging {
     width: 193px;
     height: 193px;
     position: absolute;
-    left: 255px;
+    right: 922px;
     top: 533px;
 }
 
-.icon_packaging2 {
+#packaging2 {
     position: absolute;
     width: 162.41px;
     height: 162.41px;
-    left: 90.83px;
-    top: 717px;
+    right: 1206px;
+    top: 637px;
 }
 
-.icon_proposition {
+#proposition {
     width: 221px;
     height: 221px;
     position: absolute;
-    left: 188px;
+    right: 986px;
     top: -50px;
 }
 
-.icon_proposition2 {
+#proposition2 {
     position: absolute;
     width: 185.98px;
     height: 185.98px;
-    left: 392.71px;
-    top: 742px;
+    right: 866px;
+    top: 662px;
 }
 
-.icon_promotion {
+#promotion {
     width: 239px;
     height: 239px;
     position: absolute;
-    left: 771px;
+    right: 342px;
     top: 470px;
     z-index: 1;
 }
 
-.icon_promotion2 {
+#promotion2 {
     position: absolute;
     width: 201.12px;
     height: 201.12px;
-    left: 1181px;
-    top: 732px;
+    right: 15px;
+    top: 652px;
     z-index: 1;
 }
 
@@ -284,9 +286,9 @@ button {
 }
 
 .what {
-    margin: 0px 240px 30px;
+    margin: 0px auto 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -299,7 +301,7 @@ button {
     display: flex;
     position: absolute;
     width: 1350px;
-    height: 800px;
+    height: 600px;
   /*   height: 500px;
     width: calc(100% - 200px); */
     margin-left: 40px;
@@ -437,11 +439,13 @@ button {
     
 .line {
     position: absolute;
-    width: 264px;
+    width: 255px;
     height: 89px;
-    left: -37px;
+    left: -33px;
     top: -130px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-left: 0px;
+    border-right: 0px;
 }
     
 .p {
@@ -590,7 +594,7 @@ button {
 }
 
 .section6 {
-    height: 5900px;
+    height: 5780px;
     padding-top: 45px;
     font-weight: 900;
     font-size: 36px;
@@ -598,6 +602,7 @@ button {
 }
 
 .title.demo_text {
+    margin-top: 65px;
     display: block;
     font-weight: bold;
     font-size: 64px;
@@ -671,15 +676,23 @@ button {
     top: 198.31px;
 }
 
+.inspirations_button {
+    left: 207px;
+    top: 570px;
+    border: 2px solid var(--product-color);
+}
+
 .features_text.inspirations {
     display: inline-block;
     position: absolute;
     left: 80px;
-    top: 352px;
+    top: 330px;
 }
 
 #tempo {
     position: absolute;
+    width: 588px;
+    height: 373px;
     left: 97px;
     top: 199.52px;
 }
@@ -724,7 +737,7 @@ button {
     color: var(--packaging-color);
 }
 
-.section6_5 {
+.section6_6 {
     position: relative;
     background-color: var(--feature-background-color);;
 }
@@ -745,22 +758,20 @@ button {
     top: 86.39px;
 }
 
-.section6_6 {
-    padding-top: 120px;
-}
-
 .reflect_text {
     display: block;
+    margin-top: 195px;
     margin-bottom: 165px;
 }
 
 #reflect_image {
     margin: 0px 16px;
+    width: 254px;
+    height: 254px;
 }
 
 .section7 {
     position: relative;
-    padding-top: 70px;
     margin-bottom: 0px;
     height: 770px;
 }
@@ -774,6 +785,7 @@ button {
 }
 
 .detail.contact_text {
+    margin-top: 20px;
     text-align: left;
     position: absolute;
     left: 152px;
@@ -941,6 +953,10 @@ textarea {
     margin: 180px 13px;
 }
 
+.content2 p {
+    margin: 200px 13px;
+}
+
 #type {
     margin: 7px;
     position: absolute;
@@ -948,4 +964,14 @@ textarea {
     font-size: 14px;
     line-height: 22px;
     color: #797979;
+}
+
+#send {
+    position: absolute;
+    right: 12px;
+    top: 63.79px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
 }
