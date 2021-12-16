@@ -28,6 +28,16 @@ card3.addEventListener('click', function () {
     card3.classList.toggle('is-flipped');
 });
 
+var formtag = document.getElementById('formtag');
+formtag.addEventListener('submit', function(event) {
+    
+    const req = {
+        name: document.getElementById('input_name').value,
+        email: document.getElementById('input_email').value,
+        company: document.getElementById('input_company').value,
+        message: document.getElementById('input_message').value,
+    };
+});
 
 placeBtn.addEventListener("click", () => {
     document.querySelector(".card-back").innerHTML = '<img id="back" src="../public/image/back_1.png" alt="">';
