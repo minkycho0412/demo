@@ -18,6 +18,13 @@ const card1 = document.querySelector('.card1__inner');
 const card2 = document.querySelector('.card2__inner');
 const card3 = document.querySelector('.card3__inner');
 
+const bottom = document.querySelector("#bottom");
+const pageBottom = document.querySelector("#page_bottom");
+
+bottom.addEventListener("click", function() {
+    pageBottom.scrollIntoView();
+});
+
 card1.addEventListener('click', function () {
     card1.classList.toggle('is-flipped');
 });
