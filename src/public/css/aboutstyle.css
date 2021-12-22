@@ -73,14 +73,15 @@ button {
     background-color: transparent;
 }
 
-.section1 {
+.section {
     width: 1440px;
     height: 900px;
+    margin-bottom: 70px;
 }
 
 .title {
     display: block;
-    margin-top: 70px;
+    padding-top: 70px;
     font-weight: 900;
     font-size: 48px;
     line-height: 56px;
@@ -99,4 +100,82 @@ button {
     margin: 0 auto;
     width: 884px;
     height: 384px;
+}
+
+#circle_image2 {
+    margin: 45px auto;
+    width: 241px;
+    height: 246px;
+}
+
+#detail2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    width: 867px;
+    height: 76px;
+}
+
+.team {
+    margin: 45px 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#circle_images {
+    width: 195px;
+    height: 195px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.strong {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title3 {
+    display: block;
+    padding-top: 180px;
+}
+
+#detail2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.title4 {
+    display: block;
+    padding-top: 110px;
+}
+
+#mccim {
+    margin: 128px 0px;
+    width: 287px;
+    height: 111px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 390px;
+}
+
+.image {
+    display : flex;
+    flex-direction: column;
 }
