@@ -12,51 +12,40 @@
     <!-- Header -->
     <header>
         <div class="logo">
-            <a href="/">Design by DOT</a>
+            <img id="fav" src="../public/image/favicon.svg" alt="">
+            <a href="/" id="logo">Y-BOX</a>
         </div>
         <ul>
-            <button class="border" id="bottom"><a>Request a Demo</a></button>
-            <button class="no_border"><a href="/about">About us</a></button>
+            <li><button class="nav border"><a href="#section7" id="navbar">Request a Demo</a></button></li>
+            <li><button class="nav noborder"><a href="/workshops" id="navbar">Workshops</a></button></li>
+            <li><button class="nav noborder"><a href="/about" id="navbar">About Us</a></button></li>
         </ul>
     </header>
     
     <!-- Main -->
     <section class="section1">
-        <span class="title main_text">
-            Y-BOX is a digital deck of<br>
-            430+ cards that leverages <br>
-            creative idea generation
+        <span class="title">
+            Presenting Y-BOX,<br>
+            A digital creative facilitation<br>
+            toolbox that uses AI to<br>
+            empower your ideas.
         </span>
-        <div class="icons">
-            <li class="icon icon_place">
-                <img src="../public/image/icon_place.png" alt="" id="place">
-            </li>
-            <li class="icon icon_product">
-                <img src="../public/image/icon_product.png" alt="" id="product">
-            </li>
-            <li class="icon icon_price">
-                <img src="../public/image/icon_price.png" alt="" id="price">
-            </li>
-            <li class="icon icon_packaging">
-                <img src="../public/image/icon_packaging.png" alt="" id="packaging">
-            </li>
-            <li class="icon icon_proposition">
-                <img src="../public/image/icon_proposition.png" alt="" id="proposition">
-            </li>
-            <li class="icon icon_promotion">
-                <img src="../public/image/icon_promotion.png" alt="" id="promotion">
-            </li>
+        <div class="main_icons">
+            <img src="../public/image/main_icons.svg" alt="">
         </div>
     </section>
 
-    <!-- Experience and Technology -->
+    <!-- About Y-BOX -->
     <section class="section2">
-        <span class="title experience_text">About Y-BOX</span>
-        <ul class="experience">
-            <li class="experience_card">
+        <span class="subheading2">
+            Y-BOX combines Creative brainstorming expertise with<br>
+            Technology to give a gameified idea generating experience
+        </span>
+        <ul class="y_box">
+            <li class="flip_card">
                 <div class="card1__inner">
                     <div class="card__face face1 card__face--front">
-                        <img id="experience_image" src="../public/image/experience.png" alt="">
+                        <img id="card_face" src="../public/image/experience.png" alt="">
                         <span class="image_text">20 + years experience</span>
                     </div>
                     <div class="card__face card__face--back">
@@ -68,13 +57,13 @@
                     </div>
                 </div>
             </li>
-            <li class="experience_card symbol">
-                <span class="symbol_text">+</span>
+            <li class="symbol">
+                <img id="symbol" src="../public/image/plus.svg" alt="">
             </li>
-            <li class="experience_card">
+            <li class="flip_card">
                 <div class="card2__inner">
                     <div class="card__face face2 card__face--front">
-                        <img id="experience_image" src="../public/image/technology.png" alt="">
+                        <img id="card_face" src="../public/image/technology.png" alt="">
                         <span class="image_text">Technology</span>
                     </div>
                     <div class="card__face card__face--back">
@@ -86,17 +75,17 @@
                     </div>
                 </div>
             </li>
-            <li class="experience_card symbol">
-                <span class="symbol_text">=</span>
+            <li class="symbol">
+                <img id="symbol" src="../public/image/equal.svg" alt="">
             </li>
-            <li class="experience_card">
+            <li class="flip_card">
                 <div class="card3__inner">
                     <div class="card__face face3 card__face--front">
-                        <img id="experience_image" src="../public/image/y-box.png" alt="">
+                        <img id="card_face" src="../public/image/y-box.png" alt="">
                         <span class="image_text">Y-BOX</span>
                     </div>
                     <div class="card__face card__face--back">
-                        <div class="card__content">
+                        <div class="card__content content2">
                             <p>
                                 Y-BOX supports online and offline creativity sessions by combining experience and technology.
                             </p>
@@ -105,28 +94,35 @@
                 </div>
             </li>
         </ul>
-        <span class="detail experience_text">
-            Y-BOX cues inspiring ideas by providing<br> more than 430 questions in 6 categories
-        </span>
     </section>
 
-    <!-- Y-BOX Demo frame -->
-    <section class="section4">
+    <!-- 6P Cards -->
+    <section class="section3">
+        <span class="subheading3">
+            Using specially crafted cues in the form of 430 questions spanning 6 categories,<br>
+            Y-Box inspires product and service ideas by amplifying your innovation 
+        </span>
         <div class= "six_p">
-            <button class="btn placeBtn">Place</button>
-            <button class="btn productBtn">Product</button>
-            <button class="btn priceBtn">Price</button>
-            <button class="btn packagingBtn">Packaging</button>
-            <button class="btn propositionBtn">Proposition</button>
-            <button class="btn promotionBtn">Promotion</button>
+            <button class="btn placeBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_1.svg" alt=""><p>Place</p></div>
+            </button>
+            <button class="btn productBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_2.svg" alt=""><p>Product</p></div>
+            </button>
+            <button class="btn priceBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_3.svg" alt=""><p>Price</p></div>
+            </button>
+            <button class="btn packagingBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_4.svg" alt=""><p>Packaging</p></div>
+            </button>
+            <button class="btn propositionBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_5.svg" alt=""><p>Proposition</p></div>
+            </button>
+            <button class="btn promotionBtn">
+                <div class="button"><img id="btn_icon" src="../public/image/icon_6.svg" alt=""><p>Promotion</p></div>
+            </button>
         </div>
         <div class="container">
-            <div class="card">
-                <div class="card-1"></div>
-                <div class="card-back">
-                    <img id="back" src="../public/image/back_1.png" alt="">
-                </div>
-            </div>
             <div class="card card1">
                 <div class="bar"></div>
                 <div class="www">where</div>
@@ -135,19 +131,15 @@
                 <img id="number" src="../public/image/number.png" alt="">
                 <div class="number"></div>
                 <div class="mini">
-                    <img id="mini" src="../public/image/icon_1.png" alt="">
+                    <img id="mini" src="../public/image/icon_1.svg" alt="">
+                </div>
+                <div class="emoji">
+                    <img id="card_emoji" src="../public/image/card_emoji.svg" alt="">
                 </div>
                 <h3 class="card1 cardtitle">
                     How to make your product dangerous to eat;<br>
                     only for adventurers!
                 </h3>
-                <div class="button">
-                    <div class="line">
-                        <p id="type">⏐Type your ideas</p>
-                        <p id="send">Send</p>
-                    </div>
-                    <div class="buttontext">Need some inspiration?</div> 
-                </div>
             </div>
             <div class="card card2">
                 <div class="bar"></div>
@@ -157,16 +149,12 @@
                 <img id="number" src="../public/image/number.png" alt="">
                 <div class="number"></div>
                 <div class="mini">
-                    <img id="mini" src="../public/image/icon_1.png" alt="">
+                    <img id="mini" src="../public/image/icon_1.svg" alt="">
+                </div>
+                <div class="emoji">
+                    <img id="card_emoji" src="../public/image/card_emoji.svg" alt="">
                 </div>
                 <h3 class="card2 cardtitle">How to sell your products at your own product parties?</h3>
-                <div class="button">
-                    <div class="line">
-                        <p id="type">⏐Type your ideas</p>
-                        <p id="send">Send</p>
-                    </div>
-                    <div class="buttontext">Need some inspiration?</div> 
-                </div>
             </div>
             <div class="card card3">
                 <div class="bar"></div>
@@ -176,16 +164,12 @@
                 <img id="number" src="../public/image/number.png" alt="">
                 <div class="number"></div>
                 <div class="mini">
-                    <img id="mini" src="../public/image/icon_1.png" alt="">
+                    <img id="mini" src="../public/image/icon_1.svg" alt="">
+                </div>
+                <div class="emoji">
+                    <img id="card_emoji" src="../public/image/card_emoji.svg" alt="">
                 </div>
                 <h3 class="card3 cardtitle">How to make your product ready to use / consume in a very short time?</h3>
-                <div class="button">
-                    <div class="line">
-                        <p id="type">⏐Type your ideas</p>
-                        <p id="send">Send</p>
-                    </div>
-                    <div class="buttontext">Need some inspiration?</div> 
-                </div>
             </div>
             <div class="card card4">
                 <div class="bar">
@@ -196,150 +180,140 @@
                     <div class="number"></div>
                 </div>
                 <div class="mini">
-                    <img id="mini" src="../public/image/icon_1.png" alt="">
+                    <img id="mini" src="../public/image/icon_1.svg" alt="">
+                </div>
+                <div class="emoji">
+                    <img id="card_emoji" src="../public/image/card_emoji.svg" alt="">
                 </div>
                 <h3 class="card4 cardtitle">How would your "Baby first Product" look like?</h3>
-                <div class="button onebutton">
-                    <div class="line">
-                        <p id="type">⏐Type your ideas</p>
-                        <p id="send">Send</p>
-                    </div>
-                    <div class="buttontext onebuttontext">Need some inspiration?</div> 
-                </div>
             </div>
         </div>
     </section>
 
     <!-- What Y-BOX offers -->
-    <section class="section5">
-        <span class="title what_text">
+    <section class="section4">
+        <span class="heading">
             What Y-BOX offers
         </span>
         <ul class="what">
             <li class="images">
-                <img id="circle_image" src="../public/image/image_1.png" alt="">
+                <img id="circle_image" src="../public/image/offer_1.svg" alt="">
                 <span class="text">
-                    430+ Qs to generate better <br>
-                    and different ideas
+                    400+ cues to lead to diverse ideas
                 </span>
             </li>
             <li class="images">
-                <img id="circle_image" src="../public/image/image_2.png" alt="">
+                <img id="circle_image" src="../public/image/offer_2.svg" alt="">
                 <span class="text">
-                    Image resouces will enrich<br>
-                    the ideas
+                    AI assisted image promts to fuel your imagination
                 </span>
             </li>
             <li class="images">
-                <img id="circle_image" src="../public/image/image_3.png" alt="">
+                <img id="circle_image" src="../public/image/offer_3.svg" alt="">
                 <span class="text">
-                    Brainstorm together with your<br>
-                    team both online and offline
+                    Platform for team brainstorming (online and offline)
                 </span>
             </li>
             <li class="images">
-                <img id="circle_image" src="../public/image/image_4.png" alt="">
+                <img id="circle_image" src="../public/image/offer_4.svg" alt="">
                 <span class="text">
-                    Accelerate your creativity by<br>
-                    adjusting the speed of the session
+                    Gamified experience to customize and accelerate the session
                 </span>
             </li>
             <li class="images">
-                <img id="circle_image" src="../public/image/image_5.png" alt="">
+                <img id="circle_image" src="../public/image/offer_5.svg" alt="">
                 <span class="text">
-                    The overview allows you to review<br>
-                    and cluster your ideas 
+                    Derive insights, review and cluster your generated ideas
                 </span>
             </li>
         </ul>
     </section>
 
-    <!-- Features -->
-    <section class="section6">
-        <span class="title demo_text">
-            Y-BOX Application Features
+    <!-- What Y-BOX can do for you -->
+    <section class="section5">
+        <span class="heading">
+            What Y-BOX can do for <i>you</i>
         </span>
         <section class="scroll">
-            <section class="section6_1">
-                <div class="imagentext">
-                    <img id="ai_card" src="../public/image/ai_card.png" alt="">
-                    <img id="ai_webinars" src="../public/image/webinars.png" alt="">
-                    <img id="ai_stations" src="../public/image/stations.png" alt="">
-                    <img id="ai_hospitals" src="../public/image/hospitals.png" alt="">
-                    <span class="features_text ai">
-                        Artificial Intelligence is used<br>
-                        to <span class="purple">real-time change the text</span><br>
-                        on the cards. <span class="purple">Generate more<br>
-                        ideas</span> with the same card!
-                    </span>
-                </div>
-            </section>
-            <section class="section6_2">
-                <img id="inspirations" src="../public/image/inspirations.png" alt="">
-                <span class="features_text inspirations">
-                    Need some <span class="orange">inspiration</span>?<br>
-                    Random images expand your<br>
-                    limitation and help you think<br>
-                    out of the box
+            <section class="section5_1">
+                <img id="ai_card" src="../public/image/ai_card.svg" alt="">
+                <img id="ai_webinars" src="../public/image/ai_webinars.svg" alt="">
+                <img id="ai_stations" src="../public/image/ai_stations.svg" alt="">
+                <img id="ai_hospitals" src="../public/image/ai_hospitals.svg" alt="">
+                <span class="body ai">
+                    Using context-aware<br>
+                    Artificial Intelligence (AI)<br>
+                    the <span class="purple">text is updated</span> in real time.<br>
+                    Reusing the same card multiple<br>
+                    time still <span class="purple">generates new ideas</span>!<br>
                 </span>
-                <div class="button inspirations_button">
-                    <div class="buttontext">Need some inspiration?</div> 
-                </div>
             </section>
-            <section class="section6_3">
+            <section class="section5_2">
+                <img id="inspirations" src="../public/image/inspirations.svg" alt="">
+                <span class="body inspirations">
+                    Need some <span class="orange">inspiration?</span><br>
+                    View dynamically curated<br>
+                    images based on the cue to<br>
+                    expand your perspective to<br>
+                    always think <span class="orange">out of the box</span>!<br>
+                </span>
+            </section>
+            <section class="section5_3">
                 <div class="tempogif">
                     <div id="tempogif"></div>
                     <input type="range" id="slider" min="1" max="5" value="3">
-                    <img src="../public/image/bar.png" alt="" id="bar">
+                    <img src="../public/image/bar.svg" alt="" id="bar">
                 </div>
-                <span class="features_text tempo">
-                    Everyone has a different<br>
-                    speed. Set your <span class="blue">speed</span> and<br>
-                    boost up your creativity
+                <span class="body tempo">
+                    Everyone sets their own pace!<br>
+                    Choose your <span class="blue">speed</span> to match<br>
+                    your style while brainstorming<br>
                 </span>
             </section>
-            <section class="section6_4">
-                <img id="share" src="../public/image/share.png" alt="">
-                <span class="features_text share">
+            <section class="section5_4">
+                <img id="share_card" src="../public/image/share_card.svg" alt="">
+                <img id="share_idea" src="../public/image/share_idea.svg" alt="">
+                <span class="body share">
                     <span class="pink">Share</span> your ideas with your<br>
                     team and <span class="pink">save</span> all the ideas to<br>
                     move further to the next step
                 </span>
             </section>
-            <section class="section6_5">
-                <div class="reflect">
-                    <span class="reflect_text">
-                        <span class="orange">Reflect</span> on your creative session and save all the<br>
-                        ideas you generated throughout the session 
+            <section class="section5_5">
+                <div class="review">
+                    <span class="body review">
+                        <span class="orange">Review</span> and <span class="orange">Reflect</span> on your creative session and<br>
+                        analyze the ideas generated throughout the session
                     </span>
-                    <img id="reflect_image" src="../public/image/speed.png" alt="">
-                    <img id="reflect_image" src="../public/image/cards.png" alt="">
-                    <img id="reflect_image" src="../public/image/resources.png" alt="">
-                    <img id="reflect_image" src="../public/image/topics.png" alt="">
+                    <img id="review" src="../public/image/review_speed.svg" alt="">
+                    <img id="review" src="../public/image/review_cards.svg" alt="">
+                    <img id="review" src="../public/image/review_resources.svg" alt="">
+                    <img id="review" src="../public/image/review_topics.svg" alt="">
                 </div>
             </section>
         </section>
     </section>
 
-    <section class="section6_6">
-        <div class="laptopnphone">
-            <img id="laptop" src="../public/image/laptop.png" alt="">
-            <img id="phone" src="../public/image/phone.png" alt="">
-        </div>
+    <!-- Webpage example -->
+    <section class="section6">
+        <img id="application" src="../public/image/web_example.svg" alt="">
     </section>
 
     <!-- Contact us-->
-    <section class="section7" id="page_bottom">
-        <span class="title contact_text">
-            We are open to business opportunities!
+    <section class="section7" id="section7">
+        <span class="subheading">
+            We would to hear from you!
         </span>
-        <p class="detail contact_text">
-            We are currently developing the demo app to
-            reach our potential users.<br><br>
-            Do you want to try out the demo app in your
+        <p class="body2">
+            We are currently working very hard to develop
+            a demo for our app for beta testing and
+            for reaching out to our potential users.<br><br>
+            
+            Do you want to try our app as part of your
             creative session or do you want to collaborate
-            with us in any form? Drop us a line to get in
-            touch with us! We are happy to connect.
+            with us in any form?<br><br>
+
+            Drop us a line! We are happy to connect.
         </p>
 
         <form id="formtag" action="/" method="POST">
@@ -353,27 +327,6 @@
             <textarea name="message" id="input_message" cols="73" rows="3" required></textarea><br>
             <input type="submit" value="Send message" id="submit">
         </form>
-
-        <div class="icons">
-            <li class="icon icon_place2">
-                <img src="../public/image/icon_place.png" alt="" id="place2">
-            </li>
-            <li class="icon icon_product2">
-                <img src="../public/image/icon_product.png" alt="" id="product2">
-            </li>
-            <li class="icon icon_price2">
-                <img src="../public/image/icon_price.png" alt="" id="price2">
-            </li>
-            <li class="icon icon_packaging2">
-                <img src="../public/image/icon_packaging.png" alt="" id="packaging2">
-            </li>
-            <li class="icon icon_proposition2">
-                <img src="../public/image/icon_proposition.png" alt="" id="proposition2">
-            </li>
-            <li class="icon icon_promotion2">
-                <img src="../public/image/icon_promotion.png" alt="" id="promotion2">
-            </li>
-        </div>
     </section>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
