@@ -61,10 +61,10 @@ placeBtn.addEventListener("click", () => {
     propositionBtn.style.color ="black";
     promotionBtn.style.color ="black";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.96vw";
 
     for(var i in bars) {
         bars[i].style.backgroundColor = "#892E8D";
@@ -99,10 +99,10 @@ productBtn.addEventListener("click", () => {
     propositionBtn.style.color ="black";
     promotionBtn.style.color ="black";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "27px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "22px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.75vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.89vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.54vw";
 
     for(var i in bars) {
         bars[i].style.backgroundColor = "#FF8C12";
@@ -138,10 +138,10 @@ priceBtn.addEventListener("click", () => {
     propositionBtn.style.color ="black";
     promotionBtn.style.color ="black";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "19px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.75vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.33vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.96vw";
     
     for(var i in bars) {
         bars[i].style.backgroundColor = "#FF604E";
@@ -177,10 +177,10 @@ packagingBtn.addEventListener("click", () => {
     propositionBtn.style.color ="black";
     promotionBtn.style.color ="black";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "27px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "28px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.89vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.96vw";
     
     for(var i in bars) {
         bars[i].style.backgroundColor = "#FF79A5";
@@ -216,10 +216,10 @@ propositionBtn.addEventListener("click", () => {
     propositionBtn.style.color ="white";
     promotionBtn.style.color ="black";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "23px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.67vw";
     
     for(var i in bars) {
         bars[i].style.backgroundColor = "#37BF3D";
@@ -255,10 +255,10 @@ promotionBtn.addEventListener("click", () => {
     propositionBtn.style.color ="black";
     promotionBtn.style.color ="white";
 
-    document.querySelector(".card1.cardtitle").style.fontSize = "28px";
-    document.querySelector(".card2.cardtitle").style.fontSize = "25px";
-    document.querySelector(".card3.cardtitle").style.fontSize = "27px";
-    document.querySelector(".card4.cardtitle").style.fontSize = "22px";
+    document.querySelector(".card1.cardtitle").style.fontSize = "1.96vw";
+    document.querySelector(".card2.cardtitle").style.fontSize = "1.75vw";
+    document.querySelector(".card3.cardtitle").style.fontSize = "1.89vw";
+    document.querySelector(".card4.cardtitle").style.fontSize = "1.54vw";
 
     for(var i in bars) {
         bars[i].style.backgroundColor = "#1898E3";

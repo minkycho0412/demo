@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-    --font-title: 48px;
-    --font-logo: 22px;
-    --font-navbar: 16px;
-    --font-heading: 64px;
-    --font-subheading: 48px;
-    --font-subheading2: 36px;
-    --font-subheading3: 24px;
-    --font-body: 36px;
-    --font-body2: 28px;
-    --font-body3: 18px;
 
     --place-color: #892E8D;
     --product-color: #FF8C12;
@@ -34,15 +24,21 @@ body, header {
     margin: 0 auto;
 }
 
-.section1, .section2, .section3, .section4, .section6, .section7{
-    margin-bottom: 40px;
-    height: 917px;
+.section1 {
+    margin-bottom: 2.8vw;
+    height: 67.83vw;
+    overflow: hidden;
+}
+
+.section2, .section3, .section4, .section6, .section7{
+    margin-bottom: 2.8vw;
+    height: 64.19vw;
     overflow: hidden;
 }
 
 .section5_1, .section5_2, .section5_3, .section5_4, .section5_5 {
-    margin-bottom: 40px;
-    height: 727px;
+    margin-bottom: 2.8vw;
+    height: 50.89vw;
     overflow: hidden;
     position: relative;
 }
@@ -74,7 +70,7 @@ body {
 
 header {
     width: 1320px;
-    height: 52px;
+    height: 3.64vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,20 +84,20 @@ header {
 }
 
 #fav {
-    margin: 0 10px 0 20px;
-    height: 26px;
-    width: 26px;
+    margin: 0 0.68vw 0 1.35vw;
+    height: 1.76vw;
+    width: 1.76vw;
 }
 
 #logo {
-    font-size: var(--font-logo);
+    font-size: 1.49vw;
 }
 
 #navbar {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: var(--font-navbar);
+    font-size: 1.08vw;
 }
 
 ul {
@@ -116,98 +112,95 @@ li {
     outline: none;
     border: none;
     background-color: transparent;
-    margin: 0 10px;
+    margin: 0 0.68vw;
 }
 
 .nav.border {
     padding: 0;
-    width: 170px;
-    height: 34px;
-    border: 1px solid #fff;
-    border-radius: 30px;
+    width: 11.51vw;
+    height: 2.30vw;
+    border: 0.07vw solid #fff;
+    border-radius: 2.1vw;
     background-color: black;
-    /* color: white; */
 }
 
 .nav.border:hover {
     background-color: white;
-    /* color: black; */
+    color: black;
 }
 
 .nav.noborder {
-    margin: 5px 10px;
-    padding: 3px 14px;
+    margin: 0.35vw 0.7vw;
+    padding: 0.21vw 0.98vw;
 }
 
 a {
     text-decoration: none;
-}
-
-a[href^="/"] {
     color: white;
 }
+
+a[href^="#"]:hover {
+    color: black;
+}
+
 .section1 {
     background-image: url("../image/main_image.svg");
-    background-size: 1320px 917px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 3.64vw;
     position: relative;
 }
 
-.main_icons {
-    position: absolute;
-    left: -90px;
-    top: 61px;
-}
-
 .title {
-    font-size: var(--font-title);
+    font-size: 3.25vw;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -90%, -100%);
+    transform: translate( -80%, -90%);
     text-align: left;
 }
 
 .subheading2{
     display: block;
-    margin: 120px 0 90px 0;
-    font-size: var(--font-subheading2);
+    margin: 8.13vw 0 6.09vw 0;
+    font-size: 2.43vw;
 }
 
 .image_text {
     font-weight: bold;
-    font-size: 20.9412px;
+    font-size: 1.35vw;
 }
 
 .y_box {
-    margin: 0 101px;
+    margin: 0 6.84vw;
 }
 
 .flip_card {
     display : flex;
     flex-direction: column;
-    margin: 50px auto 0;
-    width: 278.34px;
-    height: 479.9px;
+    margin: 3.39vw auto 0;
+    width: 18.85vw;
+    height: 32.49vw;
     perspective: 1000px;
 }
 
 #card_face {
     display: flex;
-    margin: 150px auto 70px;
-    width: 150px;
-    height: 116px;
+    margin: 10.16vw auto 4.74vw;
+    width: 10.16vw;
+    height: 7.85vw;
 }
 
 #symbol {
     margin: auto;
-    width: 46px;
-    height: 46px;
+    width: 3.11vw;
+    height: 3.11vw;
 }
 
 .symbol {
     display : flex;
     flex-direction: column;
-    margin: 50px auto 0;
+    margin: 3.39vw auto 0;
     perspective: 1000px;
 }
 
@@ -257,32 +250,32 @@ a[href^="/"] {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
-    border-radius: 16px;
-    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 1.12vw;
+    box-shadow: 0px 0.21vw 1.26vw 0.21vw rgba(0, 0, 0, 0.2);
 }
 
 .card__face.face1 {
-    border: 2px solid #FF79A5;
+    border: 0.14vw solid #FF79A5;
     box-sizing: border-box;
-    border-radius: 13.0882px;
+    border-radius: 0.92vw;
 }
 
 .card__face.face2 {
-    border: 2px solid #FF8C12;
+    border: 0.14vw solid #FF8C12;
     box-sizing: border-box;
-    border-radius: 13.0882px;
+    border-radius: 0.92vw;
 }
 
 .card__face.face3 {
-    border: 2px solid #FF604E;
+    border: 0.14vw solid #FF604E;
     box-sizing: border-box;
-    border-radius: 13.0882px;
+    border-radius: 0.92vw;
 }
 
 .card__face--back {
     background-color: white;
     background-image: url(../image/card_back.png);
-    background-size: 278.34px 479.9px;
+    background-size: 19.48vw 32.49vw;
     transform: rotateY(180deg);
     border: none;
 }
@@ -294,16 +287,16 @@ a[href^="/"] {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.22vw;
     line-height: 1.5;
 }
 
 .card__content p {
-    margin: 180px 13px;
+    margin: 12.6vw 0.91vw;
 }
 
 .content2 p {
-    margin: 200px 13px;
+    margin: 14vw 0.91vw;
 }
 
 .section3 {
@@ -314,9 +307,9 @@ a[href^="/"] {
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
-    font-size: var(--font-subheading3);
+    font-size: 1.68vw;
     display: block;
-    margin: 67px 0 30px 0;
+    margin: 4.69vw 0 2.1vw 0;
 }
 
 .button {
@@ -325,29 +318,29 @@ a[href^="/"] {
 }
 
 .btn{
-    border-radius: 4px;
+    border-radius: 0.28vw;
     background-color: white;
-    border: 2px solid black;
+    border: 0.14vw solid black;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 1.4vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.4vw;
     cursor: pointer;
-    margin: 0 10px;
-    width: 175px;
-    height: 60px;
+    margin: 0 0.7vw;
+    width: 12.25vw;
+    height: 4.2vw;
 }
 
 #btn_icon {
-    width: 24px;
-    height: 24px;
-    margin: 0 5px;
+    width: 1.68vw;
+    height: 1.68vw;
+    margin: 0 0.35vw;
 }
 
 p {
-    margin: 0 5px;
+    margin: 0 0.35vw;
 }
 
 .btn.placeBtn {
@@ -383,31 +376,31 @@ p {
 
 .container {
     display: flex;
-    margin: 70px 130px 0 130px;
+    margin: 4.9vw 9.1vw 0 9.1vw;
   }
     
   .card-1 {
     position: relative;
-    width: 322px;
-    height: 556px;
+    width: 22.54vw;
+    height: 38.92vw;
     background: #892E8D;
-    box-shadow: 0px 0px 7.21661px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    box-shadow: 0px 0px 0.51vw rgba(0, 0, 0, 0.4);
+    border-radius: 1.05vw;
   }
-    
+
   .card {
     display: flex;
     position: relative;
-    width: 320px;
-    height: 550px;
+    width: 22.54vw;
+    height: 38.92vw;
     background: white;
-    box-shadow: -60px 0px 10px 20px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    box-shadow: -4.2vw 0px 0.7vw 1.4vw1 rgba(0, 0, 0, 0.4);
+    border-radius: 1.05vw;
     transition: 0.3s ease-out;
   }
     
   .card:not(:first-child) {
-    margin-left: -50px;
+    margin-left: -3.5vw;
   }
     
   .card:hover {
@@ -417,34 +410,33 @@ p {
     
   .card:hover ~ .card {
     position: relative;
-    left: 30px;
+    left: 2.1vw;
     transition: 0.4s ease-out;
   }
     
   .bar{
     position: absolute;
-    width: 30px;
-    height: 550px;
-    border-radius: 10px 0px 0px 10px;
+    width: 2.1vw;
+    height: 38.92vw;
+    border-radius: 0.7vw 0px 0px 0.7vw;
     background: #892E8D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0.28vw 0.28vw rgba(0, 0, 0, 0.25);
   }
     
   .cardtitle{
     position: absolute;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 20px;
-    width: 220px;
-    top: 100px;
+    margin-top: 2.8vw;
+    margin-left: 3.5vw;
+    margin-right: 1.4vw;
+    width: 15.4vw;
+    top: 7vw;
     color: black;
     text-align: left;
-    font-family: IBM Plex Sans, sans-serif;
+    font-family: Nunito;
     font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 40px;
-    /* or 164% */
+    font-weight: bold;
+    font-size: 1.96vw;
+    line-height: 2.8vw;
     letter-spacing: -0.05em;
       
     flex: none;
@@ -455,29 +447,29 @@ p {
 
 #mini {
     position: absolute;
-    width: 60.1px;
-    height: 60.1px;
-    left: 228px;
-    top: 18px;
+    width: 4.21vw;
+    height: 4.21vw;
+    left: 15.96vw;
+    top: 1.26vw;
 }
 
 #card_emoji {
     position: absolute;
-    left: 50px;
-    top: 473px;
+    left: 3.5vw;
+    top: 33.11vw;
 }
     
 .p {
     position: absolute;
-    width: 70px;
-    height: 15px;
-    left: -20px;
-    top: 120px;
+    width: 4.9vw;
+    height: 1.05vw;
+    left: -1.4vw;
+    top: 8.4vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 0.7vw;
+    line-height: 0.98vw;
     transform: rotate(90deg);
     color: #FFFFFF;
       
@@ -485,30 +477,30 @@ p {
   
 .sub {
     position: absolute;
-    width: 80px;
-    height: 15px;
-    left: -25px;
-    top: 200px;
+    width: 5.6vw;
+    height: 1.05vw;
+    left: 3vw;
+    top: 14vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.7vw;
+    line-height: 10.5vw;
     transform: rotate(90deg);
     color: rgba(255, 255, 255, 0.8);
 }
     
 .www {
     position: absolute;
-    width: 30px;
-    height: 15px;
-    left: -2px;
-    top: 40px;
+    width: 2.1vw;
+    height: 1.05vw;
+    left: -0.01vw;
+    top: 2.8vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 0.7vw;
+    line-height: 0.98vw;
     /* identical to box height */
     color: #FFFFFF;
     transform: rotate(90deg);
@@ -516,21 +508,21 @@ p {
 
 #number {
     position: absolute;
-    width: 18px;
-    height: 19px;
-    left: 6px;
-    top: 410px;
+    width: 1.26vw;
+    height: 1.33vw;
+    left: 0.42vw;
+    top: 28.7vw;
 }
 
 .number {
     position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 6px;
-    top: 450px;
+    width: 1.26vw;
+    height: 1.26vw;
+    left: 0.42vw;
+    top: 31.5vw;
 
     background: #FFFFFF;
-    border: 0.5px solid #000000;
+    border: 0.04vw solid #000000;
     box-sizing: border-box;
 }
 
@@ -538,8 +530,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: var(--font-heading);
-    margin: 70px 0 45px 0;
+    font-size: 4.48vw;
+    margin: 4.9vw 0 3.15vw 0;
     display: block;
 }
 
@@ -553,30 +545,30 @@ p {
 .images {
     display: flex;
     flex-direction: column;
-    margin: 0 40px;
+    margin: 0 2.8vw;
 }
 
 #circle_image {
-    width: 200px;
-    height: 200px;
-    margin: 30px auto;
+    width: 14vw;
+    height: 14vw;
+    margin: 2.1vw auto;
 }
 
 .text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    width: 280px;
-    height: 55px;
+    font-size: 1.26vw;
+    width: 19.6vw;
+    height: 3.85vw;
 }
 
 .body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: var(--font-body);
-    line-height: 55px;
+    font-size: 2.52vw;
+    line-height: 3.85vw;
 }
 
 .purple {
@@ -598,240 +590,288 @@ p {
 #ai_card {
     position: absolute;
     vertical-align: middle;
-    left: 275px;
-    top: 66px;
+    width: 20.76vw;
+    height: 35.88vw;
+    left: 19.25vw;
+    top: 4.62vw;
 
 }
 
 #ai_webinars {
     position: absolute;
     vertical-align: middle;
-    left: 90px;
-    top: 25px;
+    width: 16.1vw;
+    height: 12.04vw;
+    left: 6.3vw;
+    top: 1.75vw;
 
 }
 
 #ai_stations {
     position: absolute;
     vertical-align: middle;
-    left: 121px;
-    top: 363px;
+    width: 18.06vw;
+    height: 13.44vw;
+    left: 8.47vw;
+    top: 25.41vw;
 }
 
 #ai_hospitals {
     position: absolute;
     vertical-align: middle;
-    left: 469px;
-    top: 459px;
+    width: 20.23vw;
+    height: 15.13vw;
+    left: 32.83vw;
+    top: 32.13vw;
 }
 
 .body.ai {
     display: inline-block;
     position: absolute;
-    left: 699.98px;
-    top: 164px;
+    left: 49vw;
+    top: 11.48vw;
 }
 
 #inspirations {
     position: absolute;
-    width: 713.23px;
-    height: 497.67px;
-    left: 561px;
-    top: 115px;
+    width: 49.93vw;
+    height: 34.84vw;
+    left: 39.21vw;
+    top: 8.05vw;
 
 }
 
 .body.inspirations {
     display: inline-block;
     position: absolute;
-    left: 46px;
-    top: 235px;
+    left: 3.22vw;
+    top: 16.45vw;
 }
 
 .tempogif {
     position: absolute;
-    width: 588px;
-    height: 373px;
-    left: 61px;
-    top: 177px;
+    width: 41.16vw;
+    height: 26.11vw;
+    left: 4.27vw;
+    top: 12.39vw;
     background-color: black;
-    border-radius: 30px;
-    border: 1px solid #1898E3;
-    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 2.1vw;
+    border: 0.07vw solid #1898E3;
+    box-shadow: inset 0px 0px 0.49vw rgba(0, 0, 0, 0.4);
 }
 
 .body.tempo {
     display: inline-block;
     position: absolute;
-    left: 759px;
-    top: 266px;
+    left: 53.13vw;
+    top: 18.62vw;
 }
 
 #gif {
-    width: 87.65px;
-    height: 75.76px;
+    width: 6.14vw;
+    height: 5.30vw;
 }
 
 #slider {
     position: absolute;
-    left: 93.21px;
-    top: 270px;
+    left: 6.3vw;
+    top: 18.9vw;
     -webkit-appearance: none;
-    width: 397.07px;
-    height: 5px;
+    width: 27.8vw;
+    height: 0.35vw;
     background: white;
     outline: none;
 }
 
 #bar {
     position: absolute;
-    width: 397.07px;
-    height: 41px;
-    left: 93.21px;
-    top: 263px;
+    width: 27.8vw;
+    height: 2.87vw;
+    left: 6.44vw;
+    top: 18.41vw;
 
 }
 
 .tempogif input::-webkit-slider-thumb {
     -webkit-appearance: none;
     background: var(--promotion-color);
-    border-radius: 50px;
-    width: 41px;
-    height: 41px;
+    border-radius: 3.5vw;
+    width: 2.87vw;
+    height: 2.87vw;
     cursor: pointer;
 }
 
 canvas {
-    border-radius: 40px;
-    margin-top: 60px;
+    border-radius: 2.8vw;
+    margin-top: 4.2vw;
+}
+
+#speed_slow {
+    position: absolute;
+    width: 7.17vw;
+    height: 7.01vw;
+    left: 3.95vw;
+    top: 10.6vw;
+}
+
+#speed_fast {
+    position: absolute;
+    width: 7.17vw;
+    height: 7.01vw;
+    left: 29.97vw;
+    top: 10.6vw;
 }
 
 #share_card {
     position: absolute;
-    left: 959px;
-    top: 76.52px;
+    width: 25.05vw;
+    height: 43.3vw;
+    left: 67.13vw;
+    top: 5.36vw;
 }
 
 #share_idea {
     position: absolute;
-    left: 510.63px;
-    top: 134.03px;
+    width: 33.29vw;
+    height: 37.45vw;
+    left: 35.74vw;
+    top: 9.38vw;
 }
 
 .body.share {
     display: inline-block;
     position: absolute;
-    left: 40px;
-    top: 279px;
+    left: 2.8vw;
+    top: 19.53vw;
 
 }
 
 #review {
-    margin: 0px 16px;
+    margin: 0px 1.12vw;
+    width: 17.78vw;
+    height: 17.78vw;
 }
 
 .body.review {
     display: block;
-    margin: 125px auto 140px;
+    margin: 8.75vw auto 9.8vw;
 }
 
 #application {
-    margin: 129px auto;
+    margin: 9.03vw auto;
+    width: 66.05vw;
+    height: 42.5vw;
 }
 
 .scroll {
-    height: 727px;
+    height: 50.89vw;
     overflow: scroll;
 }
 
 .scroll::-webkit-scrollbar {
-    width: 10px;
+    width: 0.7vw;
 }
 
 .scroll::-webkit-scrollbar-thumb {
     background-color: var(--cards-background-color);
-    border-radius: 10px;
+    border-radius: 0.7vw;
 }
 
 .scroll::-webkit-scrollbar-track {
     background-color: black;
-    border-radius: 10px;
+    border-radius: 0.7vw;
 }
 
 .section7 {
     margin: 0;
     position: relative;
-    background-image: url("../image/background.png");
-    background-size: 1320px 917px;
+    background-image: url("../image/background.svg");
+    background-size: cover;
+    background-position-y: -3vw;
 }
 
 .subheading {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 3.36vw;
     display: block;
-    margin: 130px auto;
+    margin: 9.1vw auto;
 }
 
 .body2 {
     display: flex;
     text-align: left;
     position: absolute;
-    width: 599px;
-    height: 391px;
-    left: 78px;
-    top: 322px;
+    width: 41.93vw;
+    height: 27.37vw;
+    left: 5.46vw;
+    top: 22.54vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 1.96vw;
+    line-height: 2.94vw;
 }
 
 form {
     text-align: left;
     position: absolute;
-    left: 733px;
+    left: 51.31vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.26vw;
+    line-height: 1.47vw;
 }
 
 input {
     position: relative;
-    margin-top: 10px;
-    border-radius: 5px;
+    margin-top: 0.7vw;
+    border-radius:0.35vw;
     border-style: none;
-    width: 509px;
-    height: 35px;
+    width: 35.63vw;
+    height: 2.45vw;
     z-index: 1;
 }
 
 textarea {
-    margin-top: 10px;
-    border-radius: 5px;
+    margin-top: 0.7vw;
+    border-radius: 0.35vw;
     border-style: none;
-    width: 509px;
+    width: 35.63vw;
 }
 
 #submit {
-    margin-top: 50px;
-    margin-left: 320px;
-    width: 192px;
-    height: 56px;
-    border: 1px solid #fff;
-    border-radius: 30px;
+    margin-top: 3.5vw;
+    margin-left: 22.4vw;
+    width: 13.44vw;
+    height: 3.92vw;
+    border: 0.07vw solid #fff;
+    border-radius: 2.1vw;
     background-color: black;
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.12vw;
+    line-height: 1.33vw;
 }
 
-#submit:hover {
+#submit:hover{
     background-color: white;
     color: black;
+}
+
+
+@media screen and (max-width:1320px) {
+
+    header, body {
+        width: 100%;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 0;
+    	padding-top: calc(969 / 1320 * 100%);
+    }
+
 }
