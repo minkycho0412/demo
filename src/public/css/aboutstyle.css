@@ -1,78 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, header {
     margin: 0 auto;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+    margin-bottom: 2.8vw;
+    height: 67.83vw;
+    overflow: hidden;
+}
+
+.section2, .section3, .section4, .section6, .section7{
+    margin-bottom: 2.8vw;
+    height: 64.19vw;
+    overflow: hidden;
+}
+
+.section5_1, .section5_2, .section5_3, .section5_4, .section5_5 {
+    margin-bottom: 2.8vw;
+    height: 50.89vw;
+    overflow: hidden;
+    position: relative;
+}
+
+header, .section2 {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+header, .section1 {
+    font-weight: bold;
+}
+
+.section2 {
+    font-weight: 900;
+}
+
+.section1 {
+    font-family: Nunito;
     font-style: normal;
 }
 
 body {
-    margin: 0;
+    width: 1320px;
     background-color: black;
     color: white;
     text-align: center;
 }
 
 header {
-    font-weight: bold;
+    width: 1320px;
+    height: 3.64vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1440px;
-    height: 70px;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
 }
 
-a[href] {
-    text-decoration: none;
-    color: white;
+.logo {
+    display: flex;
+}
+
+#fav {
+    margin: 0 0.68vw 0 1.35vw;
+    height: 1.76vw;
+    width: 1.76vw;
+}
+
+#logo {
+    font-size: 1.49vw;
+}
+
+#navbar {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.08vw;
 }
 
 ul {
     display: flex;
-    margin: 0px;
 }
 
 li {
-    justify-content: space-around;
     list-style: none;
 }
 
-.logo {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 22px 38px;
-}
-
-button {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
+.nav {
     outline: none;
-    margin-right: 35px;
+    border: none;
+    background-color: transparent;
+    margin: 0 0.68vw;
 }
 
-.border {
+.nav.border {
     padding: 0;
-    width: 184px;
-    height: 45px;
-    border: 1px solid #fff;
-    border-radius: 30px;
+    width: 11.51vw;
+    height: 2.30vw;
+    border: 0.07vw solid #fff;
+    border-radius: 2.1vw;
     background-color: black;
-    color: white;
 }
 
-.border:hover {
+.nav.border:hover {
     background-color: white;
     color: black;
 }
 
-.no_border {
-    border: none;
-    padding: 3px 14px;
-    background-color: transparent;
+.nav.noborder {
+    margin: 0.35vw 0.7vw;
+    padding: 0.21vw 0.98vw;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a[href^="#"]:hover {
+    color: black;
+}
 .section {
     width: 1440px;
     height: 900px;

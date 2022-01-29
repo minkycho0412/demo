@@ -144,7 +144,7 @@ a[href^="#"]:hover {
 }
 
 .section1 {
-    background-image: url("../image/main_image.svg");
+    background-image: url("../image/main_image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 3.64vw;
@@ -455,6 +455,8 @@ p {
 
 #card_emoji {
     position: absolute;
+    width: 7.55vw;
+    height: 1.25vw;
     left: 3.5vw;
     top: 33.11vw;
 }
@@ -667,7 +669,7 @@ p {
     top: 18.62vw;
 }
 
-#gif {
+#tempogif {
     width: 6.14vw;
     height: 5.30vw;
 }
@@ -703,7 +705,7 @@ p {
 
 canvas {
     border-radius: 2.8vw;
-    margin-top: 4.2vw;
+    margin: 4.2vw 15.4vw;
 }
 
 #speed_slow {
@@ -785,7 +787,7 @@ canvas {
 .section7 {
     margin: 0;
     position: relative;
-    background-image: url("../image/background.svg");
+    background-image: url("../image/background.png");
     background-size: cover;
     background-position-y: -3vw;
 }
