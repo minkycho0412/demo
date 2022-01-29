@@ -151,6 +151,16 @@ a[href^="#"]:hover {
     position: relative;
 }
 
+#main_icons {
+    width: 92.4vw;
+    height: 67.83vw;
+    position: absolute;
+    top: 3.64vw;
+    left: 0%;
+    /* transform: translate( -80%, -90%); */
+    z-index: -1;
+}
+
 .title {
     font-size: 3.25vw;
     position: absolute;
