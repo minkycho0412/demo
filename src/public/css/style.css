@@ -266,7 +266,7 @@ a[href^="#"]:hover {
 }
 
 .card__face.face1 {
-    border: 0.14vw solid #FF79A5;
+    border: 0.2vw solid #FF79A5;
     box-sizing: border-box;
     border-radius: 0.92vw;
 }
