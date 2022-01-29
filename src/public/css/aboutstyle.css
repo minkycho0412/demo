@@ -4,10 +4,6 @@
     padding: 0px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body, header {
     margin: 0 auto;
 }

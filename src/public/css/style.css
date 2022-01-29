@@ -24,7 +24,7 @@ body, header {
     margin: 0 auto;
 }
 
-.section1 {
+.section1, .section1_1 {
     margin-bottom: 2.8vw;
     height: 67.83vw;
     overflow: hidden;
@@ -34,6 +34,7 @@ body, header {
     margin-bottom: 2.8vw;
     height: 64.19vw;
     overflow: hidden;
+    position: relative;
 }
 
 .section5_1, .section5_2, .section5_3, .section5_4, .section5_5 {
@@ -43,12 +44,12 @@ body, header {
     position: relative;
 }
 
-header, .section2 {
+header, .section2, .section1_1 {
     font-family: Roboto;
     font-style: normal;
 }
 
-header, .section1 {
+header, .section1, .section1_1 {
     font-weight: bold;
 }
 
@@ -560,10 +561,28 @@ p {
     margin: 0 2.8vw;
 }
 
+.images2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5vw;
+}
+
 #circle_image {
     width: 14vw;
     height: 14vw;
     margin: 2.1vw auto;
+}
+
+#circle_image2 {
+    width: 16.8vw;
+    height: 16.8vw;
+    margin-bottom: 2.1vw;
+}
+
+#circle_image3 {
+    width: 14vw;
+    height: 14vw;
+    margin: 3.5vw auto 2.1vw;
 }
 
 .text {
@@ -573,6 +592,14 @@ p {
     font-size: 1.26vw;
     width: 19.6vw;
     height: 3.85vw;
+}
+
+.text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.68vw;
+    line-height: 2.1vw;
 }
 
 .body {
@@ -811,6 +838,19 @@ canvas {
     margin: 9.1vw auto;
 }
 
+.subheading_1, .subheading_2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.36vw;
+    display: block;
+    margin: 9.24vw auto 4.55vw;
+}
+
+.subheading_2 {
+    margin: 5.6vw auto 4.55vw;
+}
+
 .body2 {
     display: flex;
     text-align: left;
@@ -824,6 +864,41 @@ canvas {
     font-weight: bold;
     font-size: 1.96vw;
     line-height: 2.94vw;
+}
+
+.body3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4vw;
+    line-height: 2.1vw;
+}
+
+.body4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.68vw;
+    line-height: 2.1vw;
+}
+
+.body5_1, .body5_2 {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4vw;
+    line-height: 1.68vw;
+}
+
+.body5_1 {
+    left: 1.75vw;
+    top: 44.59vw;
+}
+
+.body5_2 {
+    left: 48.02vw;
+    top: 44.03vw;
 }
 
 form {
@@ -873,6 +948,37 @@ textarea {
     color: black;
 }
 
+#nel {
+    position: absolute;
+    width: 11.55vw;
+    height: 11.55vw;
+    left: 8.4vw;
+    top: 26.25vw;
+}
+
+#mccim {
+    position: absolute;
+    width: 13.66vw;
+    height: 5.28vw;
+    left: 24.23vw;
+    top: 29.39vw;
+}
+
+#han {
+    position: absolute;
+    width: 11.55vw;
+    height: 11.55vw;
+    left: 50.02vw;
+    top: 26.27vw;
+}
+
+#tu_delft {
+    position: absolute;
+    width: 18.2vw;
+    height: 11.2vw;
+    left: 65.77vw;
+    top: 26.69vw;
+}
 
 @media screen and (max-width:1320px) {
 
