@@ -70,7 +70,7 @@ placeBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#892E8D";
         wwws[i].innerText = 'where';
         ps[i].innerText = 'Place';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_1.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_1.png" alt=""></img>';
     }
 });
 
@@ -108,7 +108,7 @@ productBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#FF8C12";
         wwws[i].innerText = 'what';
         ps[i].innerText = 'Product';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_2.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_2.png" alt=""></img>';
 
     }
 });
@@ -147,7 +147,7 @@ priceBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#FF604E";
         wwws[i].innerText = 'what';
         ps[i].innerText = 'Price';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_3.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_3.png" alt=""></img>';
 
     }
 });
@@ -186,7 +186,7 @@ packagingBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#FF79A5";
         wwws[i].innerText = 'what';
         ps[i].innerText = 'Packaging';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_4.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_4.png" alt=""></img>';
 
     }
 });
@@ -225,7 +225,7 @@ propositionBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#37BF3D";
         wwws[i].innerText = 'how';
         ps[i].innerText = 'Proposition';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_5.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_5.png" alt=""></img>';
 
     }
 });
@@ -264,7 +264,7 @@ promotionBtn.addEventListener("click", () => {
         bars[i].style.backgroundColor = "#1898E3";
         wwws[i].innerText = 'how';
         ps[i].innerText = 'Promotion';
-        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_6.svg" alt=""></img>';
+        mini[i].innerHTML = '<img id="mini" src="../public/image/icon_6.png" alt=""></img>';
 
     }
 });
