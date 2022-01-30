@@ -25,16 +25,25 @@ card3.addEventListener('click', function () {
     card3.classList.toggle('is-flipped');
 });
 
-var formtag = document.getElementById('formtag');
-formtag.addEventListener('submit', function(event) {
-    
-    const req = {
-        name: document.getElementById('input_name').value,
-        email: document.getElementById('input_email').value,
-        company: document.getElementById('input_company').value,
-        message: document.getElementById('input_message').value,
-    };
-});
+// var formtag = document.getElementById('formtag');
+// formtag.addEventListener('submit', function(event) {
+//     event.preventDefault();
+// //     const req = {
+// //         name: document.getElementById('input_name').value,
+// //         email: document.getElementById('input_email').value,
+// //         company: document.getElementById('input_company').value,
+// //         message: document.getElementById('input_message').value,
+// //     };
+//     const data = new FormData(form);
+//     const action = event.target.action;
+//     fetch(action, {
+//       method: 'POST',
+//       body: data,
+//     })
+//     .then(() => {
+//       alert("Success!");
+//     })
+// });
 
 placeBtn.addEventListener("click", () => {
     document.querySelector(".card1.cardtitle").innerHTML = 'How to make your product dangerous to eat; <br> only for adventurers!';

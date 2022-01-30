@@ -317,15 +317,17 @@
             Drop us a line! We are happy to connect.
         </p>
 
-        <form id="formtag" action="/" method="POST">
+        <form form id="formtag"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbxcI9YEXwyqAG2iqlg5gdYEvrXUJ-pCvsYflqz_AqxnDQxeL-Bu42ALh82_8Un63IXK_A/exec">
             <label for="input_name">Name *</label><br>
-            <input type="text" id="input_name" required><br><br>
+            <input name="Name" type="text" id="input_name" required><br><br>
             <label for="input_email">Email address *</label><br>
-            <input type="text" id="input_email" required><br><br>
+            <input name="Email" type="text" id="input_email" required><br><br>
             <label for="input_company">Company</label><br>
-            <input type="text" id="input_company"><br><br>
+            <input name="Company" type="text" id="input_company"><br><br>
             <label for="input_message">Message *</label><br>
-            <textarea name="message" id="input_message" cols="73" rows="3" required></textarea><br>
+            <textarea name="Message" id="input_message" cols="73" rows="3" required></textarea><br>
             <input type="submit" value="Send message" id="submit">
         </form>
     </section>
